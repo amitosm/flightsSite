@@ -24,4 +24,10 @@
     background-color: black;
   }
 }
+
+.search-container .search-icon {
+  position: absolute;
+  top: 42px;
+  right: 10px;
+}
 /*# sourceMappingURL=style.css.map */

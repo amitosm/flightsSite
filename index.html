@@ -27,7 +27,7 @@
       <!-- Navigation Bar -->
       <div class="navbar-container container d-flex my-2">
         <nav
-          class="navbar navbar-expand-md navbar-collapse text-black container-fluid"
+          class="navbar navbar-expand-md navbar-collapse navbar-dark text-black"
           id="mynavbar"
         >
           <img
@@ -70,7 +70,7 @@
         </nav>
       </div>
       <!-- This container will be shown only for desktop users. -->
-      <div class="search-container container  d-none d-md-block">
+      <div class="search-container container d-none d-md-block">
         <!-- Search header - from to -->
         <h4 class="search-header">
           <span class="from">israel</span>
@@ -81,26 +81,30 @@
         <div class="row align-items-end gx-0">
           <div class="col-auto from-input position-relative">
             <label for="from" class="col-form-label">From</label>
-            <span class="search-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <input type="text" id="from" class="form-control">
+            <span class="search-icon"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+            <input type="text" id="from" class="form-control" />
           </div>
           <div class="col-auto to-input position-relative">
             <label for="to" class="col-form-label">To</label>
-            <span class="search-icon"><i class="fas fa-map-marker-alt"></i></span>
-            <input type="text" id="to" class="form-control">
+            <span class="search-icon"
+              ><i class="fas fa-map-marker-alt"></i
+            ></span>
+            <input type="text" id="to" class="form-control" />
           </div>
           <div class="col-auto depart-input">
             <label for="depart" class="col-form-label">Depart</label>
-            <input type="date" id="from" class="form-control">
+            <input type="date" id="depart" class="form-control" />
           </div>
           <div class="col-auto arrival-input">
             <label for="arrival" class="col-form-label">Arrival</label>
-            <input type="date" id="arrival" class="form-control">
+            <input type="date" id="arrival" class="form-control" />
           </div>
           <div class="col-auto pessengers-input position-relative">
             <label for="pessengers" class="col-form-label">Pessengers</label>
             <span class="search-icon"><i class="fas fa-users"></i></span>
-            <input type="number" id="pessengers" class="form-control">
+            <input type="number" id="pessengers" class="form-control" />
           </div>
           <div class="col-auto submit-btn">
             <button class="btn btn-info">Search!</button>
@@ -109,8 +113,9 @@
       </div>
       <!-- This container will be shown only for mobile users. -->
       <div class="mobile-summary-container d-block d-md-none">
-        London flights <br>
-        shoud be more details here and options to edit, we will wait for Omer mission details.
+        London flights <br />
+        shoud be more details here and options to edit, we will wait for Omer
+        mission details.
       </div>
     </div>
     <!-- Will hold the sort container & results of the flight details. -->
