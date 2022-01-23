@@ -1,3 +1,20 @@
+.header-background-container {
+  background: linear-gradient(217deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) 10.71%), url("/assets/flight-sky.jpeg") no-repeat;
+  background-size: cover;
+  min-height: 40vh;
+  margin-bottom: 5em;
+  width: 100%;
+}
+
+.header-background-container .navbar-container {
+  border-bottom: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .header-background-container .adantrip-logo {
   width: 150px;
   height: auto;
@@ -16,18 +33,38 @@
   height: auto;
 }
 
-@media screen and (max-width: 576px) {
-  .navbar-container {
-    background-color: #264653;
-  }
-  .navbar-container .hamburger-icon {
-    background-color: black;
-  }
+.search-container input {
+  background-color: transparent;
 }
 
 .search-container .search-icon {
   position: absolute;
   top: 42px;
   right: 10px;
+}
+
+.search-container .first-circle {
+  margin-top: 15px;
+  height: 10px;
+  width: 10px;
+  background-color: #118ab2;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.search-container .second-circle {
+  margin-top: 15px;
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-container {
+    background-color: #343a40;
+  }
 }
 /*# sourceMappingURL=style.css.map */

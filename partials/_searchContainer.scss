@@ -1,7 +1,28 @@
-.search-container{
-    .search-icon{
-        position:absolute;
-        top: 42px;
-        right: 10px;
-    }
+.search-container {
+  input {
+    background-color: transparent;
+  }
+  .search-icon {
+    position: absolute;
+    top: 42px;
+    right: 10px;
+  }
+  .first-circle {
+    margin-top: 15px;
+    height: 10px;
+    width: 10px;
+    background-color: #118ab2;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .second-circle {
+    margin-top: 15px;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 1px solid black;
+    display: inline-block;
+  }
 }
