@@ -1,1 +1,27 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.header-background-container .adantrip-logo {
+  width: 150px;
+  height: auto;
+}
+
+.header-background-container .left-side-nav li {
+  margin-right: 15px;
+}
+
+.header-background-container .right-side-nav li {
+  margin-right: 15px;
+}
+
+.header-background-container .right-side-nav img {
+  width: 50px;
+  height: auto;
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-container {
+    background-color: #264653;
+  }
+  .navbar-container .hamburger-icon {
+    background-color: black;
+  }
+}
+/*# sourceMappingURL=style.css.map */

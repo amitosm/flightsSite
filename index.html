@@ -23,8 +23,52 @@
 
   <body>
     <!-- Will hold navbar & search container (inputs). It will be responsible for the background.  -->
-    <div class="header-background-container">
-      <div class="navbar-container"></div>
+    <div class="header-background-container container">
+      <!-- Navigation Bar -->
+      <div class="navbar-container container d-flex my-2">
+        <nav
+          class="navbar navbar-expand-md navbar-collapse text-black container-fluid"
+          id="mynavbar"
+        >
+          <img
+            class="navbar-brand adantrip-logo"
+            src="/assets/adantrip-logo.jpeg"
+            alt=""
+          />
+          <!-- Hamburger Button which displayed only in mobile screen. -->
+          <button
+            class="navbar-toggler hamburger-icon"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mynavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Left Side Navigation Bar -->
+          <div class="left-side-nav collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">Hotels</li>
+              <li class="nav-item">Rooms</li>
+              <li class="nav-item">Flights</li>
+              <li class="nav-item">Cars</li>
+              <li class="nav-item">Experiences</li>
+            </ul>
+          </div>
+          <!-- Right Side Navigation Bar -->
+          <div class="right-side-nav collapse navbar-collapse">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">USD</li>
+              <li class="nav-item">
+                <img class="usa-logo" src="/assets/usa-logo.jpeg" alt="" />
+              </li>
+              <li class="nav-item col-12">
+                <i class="far fa-user"></i> My Account
+              </li>
+            </ul>
+          </div>
+          <!-- </div> -->
+        </nav>
+      </div>
       <!-- This container will be shown only for desktop users. -->
       <div class="search-container"></div>
       <!-- This container will be shown only for mobile users. -->
