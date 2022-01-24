@@ -1,6 +1,12 @@
 .search-container {
+  .form-control {
+    color: white;
+  }
   input {
     background-color: transparent;
+    &:focus {
+      background-color: transparent;
+    }
   }
   .search-icon {
     position: absolute;

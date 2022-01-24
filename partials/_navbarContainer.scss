@@ -1,11 +1,13 @@
 .header-background-container {
+  margin-top: -8px;
   background: linear-gradient(
       217deg,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.6) 10.71%
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.8) 80.71%
     ),
-    url("/assets/flight-sky.jpeg") no-repeat;
+    url("/assets/bridge-logo.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
   min-height: 40vh;
   margin-bottom: 5em;
   width: 100%;
