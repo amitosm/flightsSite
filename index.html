@@ -80,19 +80,19 @@
         </h4>
         <!-- Inputs row -->
         <div class="row align-items-end gx-0">
-          <div class="col-auto from-input position-relative">
+          <div class="col-auto from-input-container position-relative">
             <label for="from" class="col-form-label">From</label>
             <span class="search-icon"
               ><i class="fas fa-map-marker-alt"></i
             ></span>
-            <input type="text" id="from" class="form-control" />
+            <input type="text" id="from" class="form-control from-input" />
           </div>
-          <div class="col-auto to-input position-relative">
+          <div class="col-auto to-input-container position-relative">
             <label for="to" class="col-form-label">To</label>
             <span class="search-icon"
               ><i class="fas fa-map-marker-alt"></i
             ></span>
-            <input type="text" id="to" class="form-control" />
+            <input type="text" id="to" class="form-control to-input" />
           </div>
           <div class="col-auto depart-input">
             <label for="depart" class="col-form-label">Depart</label>
@@ -110,16 +110,18 @@
           <div class="col-auto button">
             <button class="btn btn-info submit-btn">Search!</button>
           </div>
-          <div class="row">
-            <div class="col-6 d-flex">
-              <div class="col-2">
-                <span class="first-circle"></span> Round Trip
-              </div>
-              <div class="col-2">
-                <span class="second-circle"></span> Round Trip
-              </div>
+
+        </div>
+        <!-- incorrect country msg -->
+        <div class="country-alert text-danger"></div>
+        <!-- Round trip/ one way -->
+        <div class="row">
+            <div class="col-2">
+              <span class="first-circle"></span> Round Trip
             </div>
-          </div>
+            <div class="col-2">
+              <span class="second-circle"></span> Round Trip
+            </div>
         </div>
       </div>
       <!-- This container will be shown only for mobile users. -->
@@ -138,6 +140,7 @@
       <button class="load-more-results btn btn-success w-50 m-auto mt-3">
         Load More Results
       </button>
+      <div class="msg-container"></div>
     </div>
     <!-- Footer -->
     <div class="footer-container"></div>
