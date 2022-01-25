@@ -107,8 +107,8 @@
             <span class="search-icon"><i class="fas fa-users"></i></span>
             <input type="number" id="pessengers" class="form-control" />
           </div>
-          <div class="col-auto submit-btn">
-            <button class="btn btn-info">Search!</button>
+          <div class="col-auto button">
+            <button class="btn btn-info submit-btn">Search!</button>
           </div>
           <div class="row">
             <div class="col-6 d-flex">
@@ -130,9 +130,14 @@
       </div>
     </div>
     <!-- Will hold the sort container & results of the flight details. -->
-    <div class="main-content-container">
+    <div class="main-content-container d-flex flex-column">
       <div class="sort-container"></div>
-      <div class="flight-result-container"></div>
+      <div
+        class="flight-result-container d-flex flex-column align-items-center"
+      ></div>
+      <button class="load-more-results btn btn-success w-50 m-auto mt-3">
+        Load More Results
+      </button>
     </div>
     <!-- Footer -->
     <div class="footer-container"></div>
