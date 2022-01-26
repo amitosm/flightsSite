@@ -6,3 +6,66 @@
     border-bottom: 0px solid white;
   }
 }
+
+
+// Pre footer media queries.
+//containers should be under each other for mobile screens.
+
+.pre-footer {
+  @media screen and (max-width:767.98px) {
+      height: auto;
+      flex-direction: column;
+  }
+
+  .company-details {
+      @media screen and (max-width:767.98px) {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          margin-top: 20px;
+      }
+  }
+
+  .useful-links {
+      @media screen and (max-width:767.98px) {
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          text-align: center;
+      }
+  }
+
+  .pre-footer-ad {
+      @media screen and (max-width:767.98px) {
+          align-items: center;
+      }
+  }
+}
+
+// /footer media queries
+.footer {
+    @media screen and (max-width:767.98px) {
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .copyrights {
+        @media screen and (max-width:767.98px) {
+            margin-left: 0px;
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+    }
+
+    .social-icons {
+        ul {
+            @media screen and (max-width:767.98px) {
+                margin-right: 0px;
+                padding-left: 0px;
+            }
+        }
+    }
+}

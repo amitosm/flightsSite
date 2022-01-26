@@ -79,6 +79,82 @@
   }
 }
 
+@media screen and (max-width: 767.98px) {
+  .pre-footer {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .pre-footer .company-details {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .pre-footer .useful-links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .pre-footer .pre-footer-ad {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .footer {
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .footer .copyrights {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .footer .social-icons ul {
+    margin-right: 0px;
+    padding-left: 0px;
+  }
+}
+
 .footer {
   height: 40px;
 }
@@ -103,5 +179,52 @@
 
 .footer .social-icons ul li i {
   color: white;
+}
+
+.pre-footer {
+  color: #bbb8b8;
+}
+
+.pre-footer .company-details {
+  color: gray;
+  width: 20%;
+}
+
+.pre-footer .company-details p {
+  font-size: 13px;
+}
+
+.pre-footer .useful-links {
+  width: 33%;
+}
+
+.pre-footer .useful-links .list-link-header {
+  color: black;
+}
+
+.pre-footer .useful-links ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.pre-footer .pre-footer-ad {
+  height: 230px;
+  font-size: 13px;
+  color: white;
+}
+
+.pre-footer .pre-footer-ad .text-header {
+  font-weight: bold;
+}
+
+.pre-footer .pre-footer-ad .some-text {
+  color: #bbb8b8;
+}
+
+.pre-footer .pre-footer-ad .submit-btn {
+  color: white;
+  background-color: #ee5b20;
+  font-weight: bold;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
