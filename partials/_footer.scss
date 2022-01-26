@@ -1,0 +1,23 @@
+.footer {
+    height: 40px;
+    .copyrights {
+        color: rgb(145, 144, 144);
+        margin-left: 80px;
+        .company-name {
+            color: white;
+        }
+    }
+    .social-icons{
+        ul{
+            list-style-type: none;
+            margin-right: 70px;
+            li{
+                padding-right: 10px;
+                i{
+                    //icons color
+                    color:white;
+                }
+            }
+        }
+    }
+}
