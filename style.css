@@ -78,4 +78,30 @@
     border-bottom: 0px solid white;
   }
 }
+
+.footer {
+  height: 40px;
+}
+
+.footer .copyrights {
+  color: #919090;
+  margin-left: 80px;
+}
+
+.footer .copyrights .company-name {
+  color: white;
+}
+
+.footer .social-icons ul {
+  list-style-type: none;
+  margin-right: 70px;
+}
+
+.footer .social-icons ul li {
+  padding-right: 10px;
+}
+
+.footer .social-icons ul li i {
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
