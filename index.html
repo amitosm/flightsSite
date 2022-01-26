@@ -30,11 +30,6 @@
           class="navbar navbar-expand-lg navbar-collapse navbar-dark text-white"
           id="mynavbar"
         >
-          <!-- <img
-            class="navbar-brand adantrip-logo"
-            src="/assets/adantrip-logo.jpeg"
-            alt=""
-          /> -->
           <h6 class="navbar-brand text-white">Adantrip</h6>
           <!-- Hamburger Button which displayed only in mobile screen. -->
           <button
@@ -110,18 +105,15 @@
           <div class="col-auto button">
             <button class="btn btn-info submit-btn">Search!</button>
           </div>
-
         </div>
         <!-- incorrect country msg -->
         <div class="country-alert text-danger"></div>
         <!-- Round trip/ one way -->
         <div class="row">
-            <div class="col-2">
-              <span class="first-circle"></span> Round Trip
-            </div>
-            <div class="col-2">
-              <span class="second-circle"></span> Round Trip
-            </div>
+          <div class="col-2"><span class="first-circle"></span> Round Trip</div>
+          <div class="col-2">
+            <span class="second-circle"></span> Round Trip
+          </div>
         </div>
       </div>
       <!-- This container will be shown only for mobile users. -->
@@ -144,90 +136,102 @@
     </div>
     <!--PRE FOOTER-->
     <!-- containing company summary, usefull links and ad. -->
-    <section class="pre-footer w-100 bg-light d-flex justify-content-md-around align-items-md-center p-md-5 ps-md-2 justify-content-center">
+    <section
+      class="pre-footer w-100 bg-light d-flex justify-content-md-around align-items-center p-md-5 ps-md-2 justify-content-center"
+    >
       <!-- company details - include logo and few sentences about the company -->
       <div class="company-details">
-          <h1 clas="companyName"><b>Adantrip</b></h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi necessitatibus dicta temporibus
-              voluptatum dolorem laudantium?</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus temporibus pariatur, atque iusto vitae
-              accusantium.</p>
+        <h1 clas="companyName"><b>Adantrip</b></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+          necessitatibus dicta temporibus voluptatum dolorem laudantium?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          temporibus pariatur, atque iusto vitae accusantium.
+        </p>
       </div>
       <!-- useful links -->
       <!-- divided into 3 lists: travel Mate, explore and book -->
       <div class="useful-links d-flex justify-content-between">
-          <!-- travel mate links -->
-          <div class="travel-mate d-flex flex-column align-items-md-start">
-              <div class="list-link-header mb-1"><b>Travel Mate</b></div>
-              <ul class="d-flex flex-column align-items-md-start">
-                  <li>About Travel Mate</li>
-                  <li>mobile App</li>
-                  <li>Customer Support</li>
-                  <li>Advertising</li>
-                  <li>Jobs</li>
-                  <li>Privacy Policy</li>
-                  <li>Terms of Use</li>
-              </ul>
-          </div>
-          <!-- explore links -->
-          <div class="explore d-flex flex-column align-items-md-start">
-              <div class="list-link-header mb-1"><b>Explore</b></div>
-              <ul class="d-flex flex-column align-items-md-start">
-                  <li>Countries</li>
-                  <li>Regions</li>
-                  <li>Cities</li>
-                  <li>Districs</li>
-                  <li>Airports</li>
-                  <li>Hotels</li>
-                  <li>Places of Interest</li>
-              </ul>
-          </div>
-          <!-- book links -->
-          <div class="book d-flex flex-column align-items-md-start">
-              <div class="list-link-header mb-1"><b>Book</b></div>
-              <ul class="d-flex flex-column align-items-md-start">
-                  <li>Apatments</li>
-                  <li>Resorts</li>
-                  <li>Villas</li>
-                  <li>Hostels</li>
-                  <li>B&Bs</li>
-                  <li>Guesthouse</li>
-                  <li>Hotel Chains</li>
-              </ul>
-          </div>
+        <!-- travel mate links -->
+        <div class="travel-mate d-flex flex-column align-items-md-start">
+          <div class="list-link-header mb-1"><b>Travel Mate</b></div>
+          <ul class="d-flex flex-column align-items-md-start">
+            <li>About Travel Mate</li>
+            <li>mobile App</li>
+            <li>Customer Support</li>
+            <li>Advertising</li>
+            <li>Jobs</li>
+            <li>Privacy Policy</li>
+            <li>Terms of Use</li>
+          </ul>
+        </div>
+        <!-- explore links -->
+        <div class="explore d-flex flex-column align-items-md-start">
+          <div class="list-link-header mb-1"><b>Explore</b></div>
+          <ul class="d-flex flex-column align-items-md-start">
+            <li>Countries</li>
+            <li>Regions</li>
+            <li>Cities</li>
+            <li>Districs</li>
+            <li>Airports</li>
+            <li>Hotels</li>
+            <li>Places of Interest</li>
+          </ul>
+        </div>
+        <!-- book links -->
+        <div class="book d-flex flex-column align-items-md-start">
+          <div class="list-link-header mb-1"><b>Book</b></div>
+          <ul class="d-flex flex-column align-items-md-start">
+            <li>Apatments</li>
+            <li>Resorts</li>
+            <li>Villas</li>
+            <li>Hostels</li>
+            <li>B&Bs</li>
+            <li>Guesthouse</li>
+            <li>Hotel Chains</li>
+          </ul>
+        </div>
       </div>
       <!-- pre footer ad -->
       <div class="pre-footer-ad d-flex flex-column p-4 bg-primary">
-          <p class="text-header mb-1">Save up to 50% off your next trip</p>
-          <p class="some-text">Subscribe to unlock our secret deals</p>
-          <div class="mail-input input-group mb-3">
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Type your e-mail here">
-          </div>
-          <button type="submit" class="submit-btn p-2 w-75">GET DEALS</button>
+        <p class="text-header mb-1">Save up to 50% off your next trip</p>
+        <p class="some-text">Subscribe to unlock our secret deals</p>
+        <div class="mail-input input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Type your e-mail here"
+          />
+        </div>
+        <button type="submit" class="submit-btn p-2 w-75">GET DEALS</button>
       </div>
-
-  </section>
-  <!-- END PRE-FOOTER-->
-       <!-- FOOTER-->
+    </section>
+    <!-- END PRE-FOOTER-->
+    <!-- FOOTER-->
     <!-- contain copyrights and social media icons  -->
-    <section class="footer container-fluid bg-dark d-flex justify-content-md-between align-items-center">
+    <section
+      class="footer container-fluid bg-dark d-flex justify-content-md-between align-items-center"
+    >
       <!-- copyrights -->
-      <div class="copyrights">Copyright © 2018
-          <span class="company-name">Adantrip.</span>
-          All rights reserved.
+      <div class="copyrights">
+        Copyright © 2018
+        <span class="company-name">Adantrip.</span>
+        All rights reserved.
       </div>
       <!-- social media icons -->
       <div class="social-icons">
-          <ul class="d-flex align-items-center mb-0 pl-0">
-              <li><i class="fab fa-facebook"></i></li>
-              <li><i class="fab fa-google"></i></li>
-              <li><i class="fab fa-twitter"></i></li>
-              <li><i class="fab fa-youtube"></i></li>
-              <li><i class="fab fa-instagram"></i></li>
-          </ul>
+        <ul class="d-flex align-items-center mb-0 pl-0">
+          <li><i class="fab fa-facebook"></i></li>
+          <li><i class="fab fa-google"></i></li>
+          <li><i class="fab fa-twitter"></i></li>
+          <li><i class="fab fa-youtube"></i></li>
+          <li><i class="fab fa-instagram"></i></li>
+        </ul>
       </div>
-
-  </section>
+    </section>
   </body>
   <script src="app.js"></script>
 </html>

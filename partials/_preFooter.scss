@@ -1,39 +1,40 @@
+// Pre Footer Styling.
 .pre-footer {
-    color: rgb(187, 184, 184);;
-    .company-details {
-        color: gray;
-        width: 20%;
+  color: rgb(187, 184, 184);
+  .company-details {
+    color: gray;
+    width: 20%;
 
-        p {
-            font-size: 13px;
-        }
+    p {
+      font-size: 13px;
     }
+  }
 
-    .useful-links {
-        width: 33%;
-        .list-link-header{
-            color: black;
-        }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
+  .useful-links {
+    width: 33%;
+    .list-link-header {
+      color: black;
     }
-    .pre-footer-ad{
-        height: 230px;
-        font-size: 13px;
-        color: white;
-        .text-header{
-            font-weight: bold;
-        }
-        .some-text{
-            color: rgb(187, 184, 184);
-        }
-        .submit-btn{
-            color:white;
-            background-color: #ee5b20;
-            font-weight: bold;
-            border: none;
-        }   
+    ul {
+      list-style-type: none;
+      padding-left: 0;
     }
+  }
+  .pre-footer-ad {
+    height: 230px;
+    font-size: 13px;
+    color: white;
+    .text-header {
+      font-weight: bold;
+    }
+    .some-text {
+      color: rgb(187, 184, 184);
+    }
+    .submit-btn {
+      color: white;
+      background-color: #ee5b20;
+      font-weight: bold;
+      border: none;
+    }
+  }
 }
